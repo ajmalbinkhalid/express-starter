@@ -1,0 +1,27 @@
+{
+  "name": "express-starter",
+  "version": "1.0.0",
+  "description": "A clean Express.js starter with routes, controllers, and MongoDB connection",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "starter",
+    "mongodb"
+  ],
+  "author": "ajmalbinkhalid",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
